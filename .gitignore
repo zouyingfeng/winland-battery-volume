@@ -1,0 +1,4 @@
+# build outputs
+bin/
+obj/
+*.lwp
