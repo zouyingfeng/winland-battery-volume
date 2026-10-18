@@ -154,7 +154,12 @@ internal sealed class BluetoothBatteryView : UserControl, IMorphView
             Text = string.Empty,
         };
 
-        _volumeRow = new Grid { ColumnSpacing = 5, VerticalAlignment = VerticalAlignment.Center };
+        _volumeRow = new Grid
+        {
+            ColumnSpacing = 5,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center,
+        };
         _volumeRow.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
         _volumeRow.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
         _volumeRow.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
