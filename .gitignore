@@ -1,4 +1,4 @@
-# build outputs
 bin/
 obj/
+*.user
 *.lwp
